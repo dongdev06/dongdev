@@ -293,6 +293,11 @@ item_list = [
         },
         {
             event: 'HOT',
+            url: 'https://www.tiktok.com/@hd.jrt03',
+            name: 'Tiktok'
+        },       
+        {
+            event: 'HOT',
             url: 'https://i.imgur.com/qIJ4kSw.jpg',
             name: 'Donate Momo'
         },
