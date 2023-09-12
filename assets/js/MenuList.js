@@ -273,8 +273,41 @@ item_list = [
         icon: 'fas fa-user-headset',
         item: [{
             event: 'DO NOT SPAM',
-            url: 'https://www.facebook.com/PhamVanDien.User/',
+            url: 'https://www.facebook.com/NHD.JRT.262/',
             name: 'Facebook'
-        }]
+        },
+        {
+            url: 'https://www.instagram.com/hd.jrt.2k3/',
+            name: 'Instagram'
+        },
+        {
+            url: 'https://github.com/J-JRT/',
+            name: 'Github'
+        },
+        {
+            url: 'https://www.youtube.com/@jrtofficial340/',
+            name: 'Youtube'
+        },
+        {
+            url: 'https://i.imgur.com/qIJ4kSw.jpg',
+            name: 'Donate Momo'
+        },
+        {
+            url: 'https://i.imgur.com/FIl2L50.jpg',
+            name: 'Donate MBBank'
+        },
+        {
+            url: 'https://i.imgur.com/AtkdMLp.jpg',
+            name: 'Donate Bản Việt Bank'
+        },
+        {
+            "url": endpoint + '/apikey?type=register&name=${name}&apikey=JRTxTracy_VIP',
+            "name": "APIKEY VIP"
+        },
+        {
+            url: 'https://bio.link/nhdjrt262',
+            name: 'Profile ADMIN'
+        }       
+        ]
     }
 ];
