@@ -138,12 +138,12 @@ function holiday(day, month) {
 		//-- pengunjung visitor length
 		if (localStorage.getItem('Pengunjung')) {
 			setInterval(function() {
-				fetch("https://api.phamvandien.xyz/total_request?admin=true").then(res=>res.json()).then(res=> {
+				fetch("https://api.diennguuvc.repl.co/total_request?admin=true").then(res=>res.json()).then(res=> {
 					tag_pengunjung.innerHTML = res.total+" <small>người</small>";
 				});
 			}, 2500);
 		} else {
-			fetch("https://api.phamvandien.xyz/total_request").then(res=>res.json()).then(res=> {
+			fetch("https://api.diennguuvc.repl.co/total_request").then(res=>res.json()).then(res=> {
 				localStorage.setItem('Pengunjung', 'true');
 				tag_pengunjung.innerHTML = res.total+" <small>người</small>";
 			});
@@ -180,7 +180,7 @@ function holiday(day, month) {
 			return `<small>${hari_str} ngày trước</small>`;
 		}
 	}
-	msg = `<span class="dropdown-item dropdown-header">$jumlah Thông báo</span><!--$item--><div class="dropdown-divider"></div>
+	msg = `<span class="dropdown-item dropdown-header">Thông báo ($jumlah)</span><!--$item--><div class="dropdown-divider"></div>
 	<a href="#" class="dropdown-item dropdown-footer">Xem tất cả thông báo</a>`;
 	msg_ = ``;
 
