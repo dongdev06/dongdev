@@ -47,10 +47,15 @@ function holiday(day, month) {
 		"month": 9
 	},
 	{
-		"msg": "Sinh nhật Thùy Dương <3",
-		"day": 21,
-		"month": 6
+		"msg": "Sinh nhật Hồng Phấn <3",
+		"day": 7,
+		"month": 12
 	},
+	{
+		"msg": "Sinh nhật ADMIN JRT <3",
+		"day": 26,
+		"month": 2
+	},	    
 	{
 		"msg": "Chúc mừng năm mới <3",
 		"day": 1,
