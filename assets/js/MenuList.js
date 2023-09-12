@@ -25,18 +25,21 @@ item_list = [
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
         item: [{
-            "url": endpoint + '/finduid?url=https://www.facebook.com/PhamVanDien.User/',
+            "url": endpoint + '/facebook/finduid?url=https://www.facebook.com/PhamVanDien.User/',
             "name": "Find UID"
         },
         {
-            "event": 'New',
-            "url": endpoint + '/getinfouser?uid=100004253741257',
+            "url": endpoint + '/facebook/info?uid=100033478361032',
             "name": "Get Info"
         },
         {
-            "url": endpoint + '/downloadfb?url=https://www.facebook.com/watch?v=587760489446657',
-            "name": "Tải video từ Facebook"
-        }
+            "url": endpoint + '/facebook/media?url=https://fb.watch/n0uyx7R8iP/',
+            "name": "Tải video từ Facebook V1"
+        },
+        {
+            "url": endpoint + '/facebook/video?url=https://www.facebook.com/MixiGaming/videos/266538209588714',
+            "name": "Tải video từ Facebook V2"
+        }       
         ]
     },
     {
