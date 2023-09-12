@@ -277,34 +277,42 @@ item_list = [
             name: 'Facebook'
         },
         {
+            event: 'HOT',
             url: 'https://www.instagram.com/hd.jrt.2k3/',
             name: 'Instagram'
         },
         {
+            event: 'HOT',
             url: 'https://github.com/J-JRT/',
             name: 'Github'
         },
         {
+            event: 'HOT',
             url: 'https://www.youtube.com/@jrtofficial340/',
             name: 'Youtube'
         },
         {
+            event: 'HOT',
             url: 'https://i.imgur.com/qIJ4kSw.jpg',
             name: 'Donate Momo'
         },
         {
+            event: 'HOT',
             url: 'https://i.imgur.com/FIl2L50.jpg',
             name: 'Donate MBBank'
         },
         {
+            event: 'HOT',
             url: 'https://i.imgur.com/AtkdMLp.jpg',
             name: 'Donate Bản Việt Bank'
         },
         {
+            event: 'HOT',
             "url": endpoint + '/apikey?type=register&name=${name}&apikey=JRTxTracy_VIP',
             "name": "APIKEY VIP"
         },
         {
+            event: 'HOT',
             url: 'https://bio.link/nhdjrt262',
             name: 'Profile ADMIN'
         }       
