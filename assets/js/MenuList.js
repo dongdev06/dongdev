@@ -412,7 +412,7 @@ item_list = [
     {
         event: 'HOT',
         name: 'Composite Video',
-        icon: 'fas fa-photo-video',
+        icon: 'fas fa-video',
         item: [{
                 "url": endpoint + '/video/anime?apikey=JRTfree_4097397695',
                 "name": "Anime"
@@ -454,7 +454,29 @@ item_list = [
                 "name": "Soundcloud"
             }
         ]
-    },   
+    }, 
+    {
+        event: 'HOT',
+        name: 'Sayings',
+        icon: '	fas fa-comment-alt',
+        item: [{
+                "url": endpoint + '/saying/bancobiet?apikey=JRTfree_4097397695',
+                "name": "Do you know?"
+            },
+            {
+                "url": endpoint + '/saying/cadao?apikey=JRTfree_4097397695',
+                "name": "Ca dao"
+            },
+            {
+                "url": endpoint + '/saying/danhngon?apikey=JRTfree_4097397695',
+                "name": "Danh ngôn"
+            },
+            {
+                "url": endpoint + '/saying/hearing?apikey=JRTfree_4097397695',
+                "name": "Thính"
+            }
+        ]
+    },
     {
         event: 'HOT',
         name: 'Simsimi',
