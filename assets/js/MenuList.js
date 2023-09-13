@@ -11,11 +11,11 @@ item_list = [
         name: 'APIKEY',
         icon: 'fas fa-terminal',
         item: [{
-                "url": endpoint + '/apikey?type=register&name=${đặt tên gì cũng được}',
+                "url": endpoint + '/apikey?type=register&name=free',
                 "name": "Create APIKEY"
             },
             {
-                "url": endpoint + '/apikey?type=checker&apikey=${apikey}',
+                "url": endpoint + '/apikey?type=checker&apikey=JRTfree_4097397695',
                 "name": "Check APIKEY"
             }
         ]
