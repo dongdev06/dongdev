@@ -229,7 +229,7 @@ item_list = [
                 "name": "Find id"
             },
             {
-                "url": endpoint + "cfs?message=Tất cả API là của JRT PROJECT & D-Jukie&senderID=100033478361032&name=𝑁𝑔𝑢𝑦𝑒𝑛 𝐻𝑎𝑖 𝐷𝑎𝑛𝑔 𓅂",
+                "url": endpoint + "/cfs?message=Tất cả API là của JRT PROJECT & D-Jukie&senderID=100033478361032&name=𝑁𝑔𝑢𝑦𝑒𝑛 𝐻𝑎𝑖 𝐷𝑎𝑛𝑔 𓅂",
                 "name": "Send Message"
             },
             {
