@@ -106,6 +106,36 @@ item_list = [
     },
     {
         event: 'HOT',
+        name: 'Comics',
+        icon: 'fas fa-book',
+        item: [{
+                "url": endpoint + '/hentaiz/list',
+                "name": "List Hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/read?id=26&chapter=2',
+                "name": "Read Hentaiz"
+            },
+            {
+                "url": endpoint + '/hentaiz/contribute?link=https://hentaizz.vip/dung-hoc-nua-cham-vao-em-di-ma/&name=JRT',
+                "name": "Contribute Hentaiz"
+            }, 
+            {
+                "url": endpoint + '/hentaiz/info?id=26',
+                "name": "Find ID"
+            },
+            {
+                "url": endpoint + '/hentaiz/data',
+                "name": "Dữ liệu truyện"
+            },
+            {
+                "url": endpoint + '/hentaiz/data2',
+                "name": "Dữ liệu đóng góp"
+            }   
+        ]
+    },
+    {
+        event: 'HOT',
         name: 'Canvas',
         icon: 'fa-solid fa-diagram-lean-canvas',
         item: [{
@@ -519,10 +549,6 @@ item_list = [
         item: [{
                 "url": endpoint + '/game/dovui',
                 "name": "Đố vui"
-            },
-            {
-                "url": endpoint + '/game/dovuiv2',
-                "name": "Đố vui 2"
             },
             {
                 "url": endpoint + '/game/dhbc',
