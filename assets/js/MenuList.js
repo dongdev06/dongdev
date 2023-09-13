@@ -162,6 +162,24 @@ item_list = [
     },
     {
         event: 'HOT',
+        name: 'Confession',
+        icon: 'fas fa-users',
+        item: [{
+                "url": endpoint + "/cfsdata",
+                "name": "Find id"
+            },
+            {
+                "url": endpoint + "cfs?message=Tất cả API là của JRT PROJECT & D-Jukie&senderID=100033478361032&name=𝑁𝑔𝑢𝑦𝑒𝑛 𝐻𝑎𝑖 𝐷𝑎𝑛𝑔 𓅂",
+                "name": "Send Message"
+            },
+            {
+                "url": endpoint + "/react?index=❤️",
+                "name": "React Post"
+            }
+        ]
+    },
+    {
+        event: 'HOT',
         name: 'Youtube',
         icon: 'fa-brands fa-youtube',
         item: [{
