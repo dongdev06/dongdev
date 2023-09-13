@@ -631,7 +631,11 @@ item_list = [
             {
                 "url": endpoint + '/covid?country=viet%20nam',
                 "name": "COVID 19 DATA"
-            }
+            },
+            {
+                "url": endpoint + '/uptimerobot?url=https://docs-api.jrtxtracy.repl.co&key=jrtxtracy&monitor=JRT',
+                "name": "Uptime Robot"
+            },   
         ]
     },
     {
