@@ -11,7 +11,7 @@ item_list = [
         name: 'APIKEY',
         icon: 'fas fa-terminal',
         item: [{
-                "url": endpoint + '/apikey?type=register&name=free',
+                "url": endpoint + '/apikey?type=register&name=${đặt tên gì cũng được}',
                 "name": "Create APIKEY"
             },
             {
