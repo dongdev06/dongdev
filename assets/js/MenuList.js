@@ -242,7 +242,7 @@ item_list = [
     {
         event: 'HOT',
         name: 'Banking',
-        icon: 'fa-solid fa-diagram-lean-canvas',
+        icon: 'fas fa-university',
         item: [{
                 "url": endpoint + "/bank/check?ID=100033478361032",
                 "name": "Check Bank ID"
