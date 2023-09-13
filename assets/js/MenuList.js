@@ -106,6 +106,28 @@ item_list = [
     },
     {
         event: 'HOT',
+        name: 'Mail 10 minutes',
+        icon: 'fas fa-envelope-open-text',
+        item: [{
+                "url": "https://10minutemail.net/address.api.php?new=1",
+                "name": "Create Mail"
+            },
+            {
+                "url": "https://10minutemail.net/address.api.php?more=1",
+                "name": "More Mail"
+            },
+            {
+                "url": "https://10minutemail.net/address.api.php",
+                "name": "Get Mail"
+            },
+            {
+                "url": "https://10minutemail.net/address.api.php?check=1",
+                "name": "Check Mail"
+            }   
+        ]
+    },
+    {
+        event: 'HOT',
         name: 'Comics',
         icon: 'fas fa-book',
         item: [{
