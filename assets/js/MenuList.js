@@ -241,6 +241,56 @@ item_list = [
     },
     {
         event: 'HOT',
+        name: 'Banking',
+        icon: 'fa-solid fa-diagram-lean-canvas',
+        item: [{
+                "url": endpoint + "/bank/check?ID=100033478361032",
+                "name": "Check Bank ID"
+            },
+            {
+                "url": endpoint + "/bank/register?senderID=100033478361032&name=Nguyễn Hải Đăng ꪜ",
+                "name": "Create Bank"
+            },
+            {
+                "url": endpoint + "/bank/find?type=${STK}&${ID}&${name}=${result}",
+                "name": "Find Bank (Code)"
+            },
+            {
+                "url": endpoint + "/bank/find?type=ID&ID=100033478361032",
+                "name": "Find Bank (Example)"
+            },
+            {
+                "url": endpoint + "https://docs-api.jrtxtracy.repl.co/bank/password?bka=get&dka=100033478361032",
+                "name": "Get Password"
+            },
+            {
+                "url": endpoint + "https://docs-api.jrtxtracy.repl.co/bank/password?bka=recovery&dka=100033478361032&fka=26020712",
+                "name": "New Password"
+            },   
+            {
+                "url": endpoint + "/bank/send?senderID=100033478361032&money=99999999999",
+                "name": "Recharge Money Bank"
+            },
+            {
+                "url": endpoint + "/bank/top",
+                "name": "Top Bank"
+            },
+            {
+                "url": endpoint + "/bank/pay?type=STK&senderID=100033478361032&STK=705751495&money=9999999999&password=26020712",
+                "name": "Pay Bank (STK)"
+            },
+            {
+                "url": endpoint + "/bank/pay?type=ID&senderID=100033478361032&userID=100033478361032&money=9999999999&password=26020712",
+                "name": "Pay Bank (UID)"
+            },
+            {
+                "url": endpoint + "/bank/get?ID=100033478361032&money=99999999999999&password=26020712",
+                "name": "Withdraw Money Bank"
+            }   
+        ]
+    },
+    {
+        event: 'HOT',
         name: 'Pinterest',
         icon: 'fa-brands fa-pinterest',
         item: [{
