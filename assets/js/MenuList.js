@@ -605,6 +605,14 @@ item_list = [
             {
                 "url": endpoint + '/vuatiengviet/image?word=ngu ngốc',
                 "name": "Vua tiếng Việt 2"
+            },
+            {
+                "url": endpoint + '/lol?champion=yasuo',
+                "name": "Info General LOL"
+            },
+            {
+                "url": endpoint + '/lol/list',
+                "name": "List LOL"
             }
         ]
     },
