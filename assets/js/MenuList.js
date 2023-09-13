@@ -22,6 +22,20 @@ item_list = [
     },
     {
         event: 'HOT',
+        name: 'UPTIMEROBOT',
+        icon: 'fas fa-user-secret',
+        item: [{
+                "url": 'https://uptimerobot.catteam123.repl.co/',
+                "name": "Uptime"
+            },
+            {
+                "url": 'https://uptimebot.catteam123.repl.co/',
+                "name": "Uptimev2"
+            }
+        ]
+    },
+    {
+        event: 'HOT',
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
         item: [{
@@ -715,7 +729,7 @@ item_list = [
             {
                 "url": endpoint + '/uptimerobot?url=https://docs-api.jrtxtracy.repl.co&key=jrtxtracy&monitor=JRT',
                 "name": "Uptime Robot"
-            },   
+            }  
         ]
     },
     {
