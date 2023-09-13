@@ -533,11 +533,11 @@ item_list = [
         name: 'Simsimi',
         icon: 'fa-solid fa-message-bot',
         item: [{
-                "url": endpoint + '/sim?type=ask&ask=sim ơi',
+                "url": endpoint + '/sim?type=ask&ask=JRT',
                 "name": "Ask"
             },
             {
-                "url": endpoint + '/sim?type=teach&ask=sim ơi&ans=ơii',
+                "url": endpoint + '/sim?type=teach&ask=JRT&ans=Liên hệ fb ADMIN JRT để xem các dịch vụ hiện có nhé !!!! Link: https://www.facebook.com/NHD.JRT.262',
                 "name": "Teach"
             }
         ]
