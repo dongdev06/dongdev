@@ -173,7 +173,7 @@ item_list = [
                 "name": "Send Message"
             },
             {
-                "url": endpoint + "/react?index=❤️",
+                "url": endpoint + "/react?index=100000000017",
                 "name": "React Post"
             }
         ]
