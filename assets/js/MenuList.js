@@ -525,12 +525,16 @@ item_list = [
                 "name": "Đố vui 2"
             },
             {
-                "url": endpoint + '/game/dhbcv1',
+                "url": endpoint + '/game/dhbc',
                 "name": "Đuổi hình bắt chữ"
-            },
+            },   
             {
                 "url": endpoint + '/game/dhbcv1',
                 "name": "Đuổi hình bắt chữ 2"
+            },
+            {
+                "url": endpoint + '/game/dhbcv2',
+                "name": "Đuổi hình bắt chữ 3"
             },
             {
                 "url": endpoint + '/game/dhbcemoji',
