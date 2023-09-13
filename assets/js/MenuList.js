@@ -290,11 +290,11 @@ item_list = [
                 "name": "Find Bank (Example)"
             },
             {
-                "url": endpoint + "https://docs-api.jrtxtracy.repl.co/bank/password?bka=get&dka=100033478361032",
+                "url": endpoint + "/bank/password?bka=get&dka=100033478361032",
                 "name": "Get Password"
             },
             {
-                "url": endpoint + "https://docs-api.jrtxtracy.repl.co/bank/password?bka=recovery&dka=100033478361032&fka=26020712",
+                "url": endpoint + "/bank/password?bka=recovery&dka=100033478361032&fka=26020712",
                 "name": "New Password"
             },   
             {
