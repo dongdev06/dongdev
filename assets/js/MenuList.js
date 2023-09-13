@@ -22,6 +22,20 @@ item_list = [
     },
     {
         event: 'HOT',
+        name: 'Download ALL IN ONE',
+        icon: 'fas fa-download',
+        item: [{
+                "url": 'https://nguyenmanh.name.vn/videodl',
+                "name": "Download Video"
+            },
+            {
+                "url": 'https://nguyenmanh.name.vn/audiodl',
+                "name": "Download Audio"
+            }
+        ]
+    },
+    {
+        event: 'HOT',
         name: 'UPTIMEROBOT',
         icon: 'fas fa-user-secret',
         item: [{
