@@ -533,6 +533,30 @@ item_list = [
                 "name": "Đuổi hình bắt chữ 2"
             },
             {
+                "url": endpoint + '/game/dhbcemoji',
+                "name": "Đuổi hình bắt chữ emoji"
+            },   
+            {
+                "url": endpoint + '/game/csgo_grenade',
+                "name": "CSGO Grenade"
+            },
+            {
+                "url": endpoint + '/game/csgo_heavy',
+                "name": "CSGO Heavy"
+            },
+            {
+                "url": endpoint + '/game/csgo_knift',
+                "name": "CSGO Knift"
+            },
+            {
+                "url": endpoint + '/game/csgo_random',
+                "name": "CSGO Random"
+            },
+            {
+                "url": endpoint + '/game/lienquanquiz',
+                "name": "Question Liên Quân"
+            },   
+            {
                 "url": endpoint + '/game/linkword?word=ngu ngốc',
                 "name": "Nối từ"
             },
