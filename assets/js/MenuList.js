@@ -563,7 +563,7 @@ item_list = [
                 "name": "Đuổi hình bắt chữ 3"
             },
             {
-                "url": endpoint + '/game/dhbcemoji',
+                "url": endpoint + '/game/dhbcemj',
                 "name": "Đuổi hình bắt chữ emoji"
             },   
             {
