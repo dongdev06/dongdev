@@ -26,12 +26,20 @@ item_list = [
         icon: 'fas fa-download',
         item: [{
                 "url": 'https://nguyenmanh.name.vn/videodl',
-                "name": "Download Video"
+                "name": "Download Video Tiktok (No logo)"
             },
             {
-                "url": 'https://nguyenmanh.name.vn/audiodl',
-                "name": "Download Audio"
-            }
+                "url": 'https://snapsave.app/vn',
+                "name": "Download Video Facebook"
+            },
+            {
+                "url": 'https://snapsave.app/vn/facebook-reels-download',
+                "name": "Download Video Facebook Reels"
+            },
+            {
+                "url": 'https://snapsave.app/vn/download-video-instagram',
+                "name": "Download Video Instagram"
+            }   
         ]
     },
     {
