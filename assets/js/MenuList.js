@@ -1,4 +1,4 @@
-endpoint = `https://docs-api.jrtxtracy.repl.co`
+endpoint = `https://b9e7ef8d-ebf3-4a1c-b05b-c688dd6710a2-00-2juoke6zufumc.pike.replit.dev/`
 message_list = [{
     icon: 'fa-solid fa-star-exclamation',
     title: 'Trang web bắt đầu hoạt động',
@@ -15,7 +15,7 @@ item_list = [
                 "name": "Create APIKEY"
             },
             {
-                "url": endpoint + '/apikey?type=checker&apikey=JRTfree_4097397695',
+                "url": endpoint + '/apikey?type=checker&apikey=DongDev_Free_4097397695',
                 "name": "Check APIKEY"
             }
         ]
@@ -25,7 +25,7 @@ item_list = [
         name: 'Download ALL IN ONE',
         icon: 'fas fa-download',
         item: [{
-                "url": 'https://nguyenmanh.name.vn/videodl',
+                "url": 'https://nguyenmanh.name.vn/api/autolink?url=',
                 "name": "Download Video Tiktok (No logo)"
             },
             {
