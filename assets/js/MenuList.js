@@ -104,6 +104,16 @@ item_list = [
             }   
         ]
     },
+        {
+        event: 'HOT',
+        name: 'CapCut',
+        icon: 'fas fa-user-secret',
+        item: [{
+                "url": endpoint + "/capcut/dl?apikey=&url=",
+            "name": "CapCut Download"
+            }
+        ]
+    },
     {
         event: 'HOT',
         name: 'Tạo avatar anime',
