@@ -116,8 +116,8 @@ function holiday(day, month) {
 		//-- Browser information
 		information = document.querySelector('#information');
 		repeatinfo = setInterval(function() {
-			information.innerHTML = `<b>Mã trình duyệt:</b> ${navigator.appCodeName}<br><b>Tên trình duyệt:</b> ${navigator.appName}<br><b>Cookies:</b> ${navigator.cookieEnabled}<br><b>Trạng thái hoạt động:</b> ${navigator.onLine}<br><b>Nền tảng:</b> ${navigator.platform} <br>
-			<b>User-Agent:</b> ${navigator.userAgent} <br><b>Thời gian: </b> ${new Date()}`;
+			information.innerHTML = `<b>📝 Mã trình duyệt:</b> ${navigator.appCodeName}<br><b>🌐 Tên trình duyệt:</b> ${navigator.appName}<br><b>🍪 Cookies:</b> ${navigator.cookieEnabled}<br><b>🟢 Trạng thái hoạt động:</b> ${navigator.onLine}<br><b>🔐 Nền tảng:</b> ${navigator.platform} <br>
+			<b>👤 User-Agent:</b> ${navigator.userAgent} <br><b>⏰ Thời gian: </b> ${new Date()}`;
 		}, 10);
 
 		//-- CPU Usage detection
